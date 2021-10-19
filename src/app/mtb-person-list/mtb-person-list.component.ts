@@ -11,9 +11,9 @@ export class MtbPersonListComponent implements OnInit {
 
   // Seed some mtb people
   mtbPersonList: MtbPerson[] = [
-    new MtbPerson("Olli", "Zott", "olli@mail.com", 45),
-    new MtbPerson("Lena", "Bergmann", "lena@mail.com", 35),
-    new MtbPerson("Sigi", "-", "sigi@mail.com", 0)
+    new MtbPerson("Olli", "Zott", "olli@mail.com", 45, 3000),
+    new MtbPerson("Lena", "Bergmann", "lena@mail.com", 35, 1800),
+    new MtbPerson("Sigi", "-", "sigi@mail.com", 0, 0)
   ];
 
 
