@@ -1,3 +1,13 @@
+# Setup
+- `ng serve --port 5666 --open`
+
+# Basics
+- https://angular.io/guide/file-structure
+
+
+
+
+----
 # FirstAngularProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.10.
