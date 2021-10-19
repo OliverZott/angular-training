@@ -5,6 +5,13 @@
 - https://angular.io/guide/file-structure
 
 
+# Remarks
+- Mostly **public** fields... not like Java with getters/setters !
+
+
+# Workflow
+- `ng generate class <folder-name>/<class-name>`
+- `ng generate component <folder-name>`
 
 
 ----

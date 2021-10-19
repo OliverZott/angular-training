@@ -1,0 +1,19 @@
+<table border="1">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email Name</th>
+            <th>Tours Name</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let mtbPerson of mtbPersonList">
+          <th>{{ mtbPerson.firstName }}</th>
+          <th>{{ mtbPerson.lastName }}</th>
+          <th>{{ mtbPerson.email }}</th>
+          <th>{{ mtbPerson.mtbToures }}</th>
+        </tr>
+    </tbody>
+</table>
